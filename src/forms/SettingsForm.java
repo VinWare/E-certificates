@@ -15,6 +15,7 @@ public class SettingsForm {
 	private JButton saveButton;
 	
 	SettingsForm() {
+		chooseBlankCertificateButton.setVisible(false);
 		JFrame frame = new JFrame("SettingsForm");
 		
 		chooseBlankCertificateButton.addActionListener(new ActionListener() {
